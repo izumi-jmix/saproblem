@@ -1,0 +1,83 @@
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.2)
+
+2022-10-11 15:40:32.444  INFO 46507 --- [           main] o.i.jmix.saproblem.SaproblemApplication  : Starting SaproblemApplication using Java 11.0.14.1 on Aidens-MacBook-Pro.local with PID 46507 (/Users/aiden/IdeaProjects/personal/saproblem/build/classes/java/main started by aiden in /Users/aiden/IdeaProjects/personal/saproblem)
+2022-10-11 15:40:32.453  INFO 46507 --- [           main] o.i.jmix.saproblem.SaproblemApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-10-11 15:40:36.082  INFO 46507 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Jmix repositories in DEFAULT mode.
+2022-10-11 15:40:36.099  INFO 46507 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Jmix repository interfaces.
+2022-10-11 15:40:36.348  INFO 46507 --- [           main] io.jmix.core.JmixModulesProcessor        : Using Jmix modules: [io.jmix.core, io.jmix.security, io.jmix.ui, io.jmix.securityui, io.jmix.data, io.jmix.datatools, io.jmix.uiexport, io.jmix.datatoolsui, io.jmix.eclipselink, io.jmix.localfs, io.jmix.securitydata, io.jmix.uidata, org.izumi.jmix.saproblem]
+2022-10-11 15:40:36.354  INFO 46507 --- [           main] o.s.c.a.ConfigurationClassPostProcessor  : Cannot enhance @Configuration bean definition 'com.vaadin.spring.VaadinConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-10-11 15:40:37.288  INFO 46507 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-10-11 15:40:37.295  INFO 46507 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-11 15:40:37.295  INFO 46507 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-11 15:40:37.409  INFO 46507 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-11 15:40:37.409  INFO 46507 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2941 ms
+2022-10-11 15:40:37.614  INFO 46507 --- [           main] i.j.c.i.s.JmixModulesClasspathScanner    : Classpath scan completed in 153 ms
+2022-10-11 15:40:37.859  INFO 46507 --- [           main] io.jmix.core.impl.MetadataLoader         : Metadata initialized in 102 ms
+2022-10-11 15:40:38.036  INFO 46507 --- [           main] i.j.a.u.v.JmixVaadinServletConfiguration : Servlet will be mapped to URLs [/vaadinServlet/*, /VAADIN/*]
+2022-10-11 15:40:38.110  INFO 46507 --- [           main] i.j.a.u.v.JmixVaadinServletConfiguration : Set servlet init parameter [productionMode] = [false]
+2022-10-11 15:40:38.110  INFO 46507 --- [           main] i.j.a.u.v.JmixVaadinServletConfiguration : Set servlet init parameter [resourceCacheTime] = [3600]
+2022-10-11 15:40:38.110  INFO 46507 --- [           main] i.j.a.u.v.JmixVaadinServletConfiguration : Set servlet init parameter [heartbeatInterval] = [300]
+2022-10-11 15:40:38.110  INFO 46507 --- [           main] i.j.a.u.v.JmixVaadinServletConfiguration : Set servlet init parameter [closeIdleSessions] = [false]
+2022-10-11 15:40:38.542  INFO 46507 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-11 15:40:38.739  INFO 46507 --- [           main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2022-10-11 15:40:38.742  INFO 46507 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-11 15:40:38.774  INFO 46507 --- [           main] liquibase.database                       : Set default schema name to PUBLIC
+2022-10-11 15:40:38.913  INFO 46507 --- [           main] liquibase.lockservice                    : Successfully acquired change log lock
+2022-10-11 15:40:39.543  INFO 46507 --- [           main] liquibase.changelog                      : Reading resource: org/izumi/jmix/saproblem/liquibase/changelog/010-init-user.xml
+2022-10-11 15:40:39.672  INFO 46507 --- [           main] liquibase.changelog                      : Reading from PUBLIC.DATABASECHANGELOG
+2022-10-11 15:40:39.828  INFO 46507 --- [           main] liquibase.lockservice                    : Successfully released change log lock
+2022-10-11 15:40:39.940  INFO 46507 --- [           main] i.j.d.i.JmixBaseEntityManagerFactoryBean : Using persistence.xml at org/izumi/jmix/saproblem/persistence.xml for 'main' store
+2022-10-11 15:40:39.966  INFO 46507 --- [           main] o.s.o.j.p.PersistenceUnitReader          : persistence.xml should be located inside META-INF directory; cannot determine persistence unit root URL for class path resource [org/izumi/jmix/saproblem/persistence.xml]
+2022-10-11 15:40:40.304  INFO 46507 --- [           main] i.j.d.impl.JmixEntityManagerFactoryBean  : Initialized JPA EntityManagerFactory for persistence unit 'main'
+2022-10-11 15:40:40.509  WARN 46507 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'problemBean': Invocation of init method failed; nested exception is java.lang.IllegalStateException: This object has not been built
+2022-10-11 15:40:40.510  INFO 46507 --- [           main] i.j.d.impl.JmixEntityManagerFactoryBean  : Closing JPA EntityManagerFactory for persistence unit 'main'
+2022-10-11 15:40:40.512  INFO 46507 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-11 15:40:40.520  INFO 46507 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-10-11 15:40:40.524  INFO 46507 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-10-11 15:40:40.538  INFO 46507 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-11 15:40:40.555 ERROR 46507 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'problemBean': Invocation of init method failed; nested exception is java.lang.IllegalStateException: This object has not been built
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:160) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:440) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.2.jar:2.7.2]
+	at org.izumi.jmix.saproblem.SaproblemApplication.main(SaproblemApplication.java:25) ~[main/:na]
+Caused by: java.lang.IllegalStateException: This object has not been built
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.getObject(AbstractSecurityBuilder.java:51) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:518) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at io.jmix.core.security.impl.SystemAuthenticatorImpl.begin(SystemAuthenticatorImpl.java:79) ~[jmix-core-1.3.3.jar:na]
+	at io.jmix.core.security.impl.SystemAuthenticatorImpl.begin(SystemAuthenticatorImpl.java:94) ~[jmix-core-1.3.3.jar:na]
+	at org.izumi.jmix.saproblem.ProblemBean.init(ProblemBean.java:27) ~[main/:na]
+Caused by: java.lang.IllegalStateException: This object has not been built
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:333) ~[spring-beans-5.3.22.jar:5.3.22]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:157) ~[spring-beans-5.3.22.jar:5.3.22]
+	... 18 common frames omitted
